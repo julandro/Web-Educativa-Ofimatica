@@ -1,6 +1,30 @@
 .hero-body {
-    background-image: url('../assets/img/of3.jpg');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed; 
+}
+
+.tilin-uno {
+    background-image: url('../assets/img/of3.jpg');
+}
+
+.tilin-dos {
+    background-image: url('/src/assets/img/excel2.webp');
+}
+/* Contenedor del iframe */
+.video-container {
+  position: relative;
+  width: 100%;      /* Hace que el contenedor ocupe todo el ancho disponible */
+  padding-top: 56.25%; /* Mantiene una relación de aspecto 16:9 (altura / ancho = 9 / 16 = 0.5625) */
+  height: 0;         /* Altura inicial en 0 para que el padding funcione correctamente */
+  overflow: hidden;  /* Evita que se salgan contenidos fuera del contenedor */
+}
+
+/* El iframe se adapta al contenedor */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
