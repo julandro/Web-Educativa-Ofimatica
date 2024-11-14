@@ -292,15 +292,7 @@ const routes = {
             <span class="tag is-dark">PDF</span>
           </div>
           <div>
-            <a
-              href="../../src/assets/docs/word/WORD 2013.compressed.pdf"
-              download
-            >
-              <button class="button is-success">
-                <i class="bi bi-download"></i>
-              </button>
-            </a>
-
+            
             <a
               href="https://www.saludarequipa.gob.pe/camana/curso1/WORD%202013/WORD%202013.compressed.pdf"
               target="_blank"
