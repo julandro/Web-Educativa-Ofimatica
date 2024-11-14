@@ -1,23 +1,27 @@
 .hero-body {
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .tilin-uno {
-    background-image: url('../assets/img/of3.jpg');
+  background-image: url("../assets/img/of3.jpg");
 }
 
 .tilin-dos {
-    background-image: url('/src/assets/img/excel2.webp');
+  background-image: url("/src/assets/img/excel2.webp");
+}
+
+.tilin-tres {
+  background-image: url("../assets/img/word9.jpg");
 }
 /* Contenedor del iframe */
 .video-container {
   position: relative;
-  width: 100%;      /* Hace que el contenedor ocupe todo el ancho disponible */
+  width: 100%; /* Hace que el contenedor ocupe todo el ancho disponible */
   padding-top: 56.25%; /* Mantiene una relación de aspecto 16:9 (altura / ancho = 9 / 16 = 0.5625) */
-  height: 0;         /* Altura inicial en 0 para que el padding funcione correctamente */
-  overflow: hidden;  /* Evita que se salgan contenidos fuera del contenedor */
+  height: 0; /* Altura inicial en 0 para que el padding funcione correctamente */
+  overflow: hidden; /* Evita que se salgan contenidos fuera del contenedor */
 }
 
 /* El iframe se adapta al contenedor */
