@@ -15,13 +15,18 @@
 .tilin-tres {
   background-image: url("../assets/img/word9.jpg");
 }
+
+.tilin-cuatro {
+  background-image: url("../assets/img/pwpoint1.png");
+}
+
 /* Contenedor del iframe */
 .video-container {
   position: relative;
-  width: 100%; /* Hace que el contenedor ocupe todo el ancho disponible */
-  padding-top: 56.25%; /* Mantiene una relación de aspecto 16:9 (altura / ancho = 9 / 16 = 0.5625) */
-  height: 0; /* Altura inicial en 0 para que el padding funcione correctamente */
-  overflow: hidden; /* Evita que se salgan contenidos fuera del contenedor */
+  width: 100%;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
 }
 
 /* El iframe se adapta al contenedor */
