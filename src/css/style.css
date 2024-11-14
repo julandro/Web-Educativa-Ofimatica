@@ -9,7 +9,7 @@
 }
 
 .tilin-dos {
-  background-image: url("/src/assets/img/excel2.webp");
+  background-image: url("../assets/img/excel2.webp");
 }
 
 .tilin-tres {
@@ -23,7 +23,6 @@
 .cardQuizes:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 50px -13px rgba(255, 255, 255, 0.2);
-
 }
 
 /* Contenedor del iframe */

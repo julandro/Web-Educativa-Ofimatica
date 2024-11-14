@@ -920,15 +920,6 @@ const routes = {
           </div>
           <div>
             <a
-              href="/src/assets/docs/excel/Excel para Principiantes.pdf"
-              download
-            >
-              <button class="button is-success">
-                <i class="bi bi-download"></i>
-              </button>
-            </a>
-
-            <a
               href="http://cotana.informatica.edu.bo/downloads/Excel%20para%20Principiantes.pdf"
               target="_blank"
             >
