@@ -87,22 +87,18 @@ const routes = {
   "/pages/powerpoint#videos": `<section class="section">
       <h1 class="title">Videos</h1>
       <h2 class="subtitle">
-        Estos videos explicativos <strong>no son de nuestra autoria</strong>, al
-        lado esta el nombre del autor y su respectivo link.
+      
       </h2>
 
       <br />
 
       <div class="columns notification">
         <div class="column content">
-          <h1 class="title">CURSO DE POWERPOINT 2019 - COMPLETO</h1>
+          <h1 class="title">
+            Curso de PowerPoint - Introduccion
+          </h1>
           <p class="has-text-grey-light is-size-5 has-text-justified">
-            Este video es un curso completo de PowerPoint 2019. Comienza
-            mostrándote cómo funciona la interfaz, qué opciones tienes al abrir
-            el programa y cómo encontrar plantillas para empezar. Luego, te
-            enseña a insertar y modificar elementos como textos, imágenes,
-            tablas, y hasta objetos 3D, para hacer tus presentaciones más
-            atractivas.
+            Este video aborda una introducción a PowerPoint bastante completa, explicando las funcionalidades de la barra de herramientas, entre otras funcionalidades que nos trae PowerPoint 
           </p>
         </div>
         <div class="column">
@@ -111,31 +107,23 @@ const routes = {
               class="has-ratio responsive-iframe"
               width="640"
               height="360"
-              src="https://www.youtube.com/embed/ra0hKJv8zbw"
+              src="https://drive.google.com/file/d/1WD3F_3cYJnQMBpLnksQh0wjdhcb-iOQG/preview"
               frameborder="0"
+              oncontextmenu="return false;"
               allowfullscreen
               style="min-width: 400px; max-width: 640"
             ></iframe>
           </figure>
-          <p class="has-text-grey-light is-size-5">
-            Video sacado del canal de Youtube:
-            <a href="https://www.youtube.com/@gallardoyoney" target="_blank">
-              <span class="icon has-text-danger">
-                <i class="bi bi-youtube"></i>
-              </span>
-              <span>Yoney Gallardo</span>
-            </a>
+          <p class="has-text-grey-light is-size-5 has-text-right">
+            Video de nuestra autoria
           </p>
-          <a href="https://www.youtube.com/watch?v=ra0hKJv8zbw" target="_blank">
-            <span class="icon has-text-danger">
-              <i class="bi bi-link-45deg"></i>
-            </span>
-            <span>Link Video</span>
-          </a>
         </div>
       </div>
 
       <br />
+
+      
+      </article>
     </section>`,
   "/pages/powerpoint#documentos": `<section class="section">
       <article class="panel is-info">

@@ -82,110 +82,43 @@ const routes = {
   "/pages/word#videos": `<section class="section">
       <h1 class="title">Videos</h1>
       <h2 class="subtitle">
-        Estos videos explicativos <strong>no son de nuestra autoria</strong>, al
-        lado esta el nombre del autor y su respectivo link.
+      
       </h2>
 
       <br />
 
       <div class="columns notification">
         <div class="column content">
-          <h1 class="title">⏺ CURSO COMPLETO DE WORD 2023 - El Tío Tech</h1>
-          <p class="has-text-grey-light is-size-5 has-text-justified">
-            guía completa para dominar Microsoft Word, desde las herramientas
-            básicas hasta funciones avanzadas. Inicia con una introducción a la
-            interfaz y explica cómo personalizar el espacio de trabajo. A lo
-            largo del curso, se cubren temas clave como el formato y estilo de
-            texto, la organización de documentos mediante títulos y tablas de
-            contenido, y la inserción de elementos multimedia como imágenes y
-            gráficos. También se enseñan herramientas para crear tablas,
-            gráficos, formularios y plantillas personalizadas, así como opciones
-            de autoguardado y recuperación. Es un recurso completo para aprender
-            a manejar Word con eficiencia y profesionalismo.
-          </p>
-        </div>
-        <div class="column">
-          <figure class="image video-container">
-            <iframe
-              class="has-ratio responsive-iframe"
-              width="640"
-              height="360"
-              src="https://www.youtube.com/embed/n0yn3TZ1lSQ"
-              frameborder="0"
-              allowfullscreen
-              style="min-width: 400px; max-width: 640"
-            ></iframe>
-          </figure>
-          <p class="has-text-grey-light is-size-5">
-            Video sacado del canal de Youtube:
-            <a href="https://www.youtube.com/c/ElT%C3%ADoTech" target="_blank">
-              <span class="icon has-text-danger">
-                <i class="bi bi-youtube"></i>
-              </span>
-              <span> El Tío Tech</span>
-            </a>
-          </p>
-          <a href="https://www.youtube.com/watch?v=n0yn3TZ1lSQ" target="_blank">
-            <span class="icon has-text-danger">
-              <i class="bi bi-link-45deg"></i>
-            </span>
-            <span>Link Video</span>
-          </a>
-        </div>
-      </div>
-
-      <br />
-
-      <div class="columns notification">
-        <div class="column">
-          <figure class="image video-container">
-            <iframe
-              class="has-ratio responsive-iframe"
-              width="640"
-              height="360"
-              src="https://www.youtube.com/embed/2jvEaBEJinI"
-              frameborder="0"
-              allowfullscreen
-              style="min-width: 400px; max-width: 640"
-            ></iframe>
-          </figure>
-          <p class="has-text-grey-light is-size-5">
-            Video sacado del canal de Youtube:
-            <a href="https://www.youtube.com/@DostinHurtado" target="_blank">
-              <span class="icon has-text-danger">
-                <i class="bi bi-youtube"></i>
-              </span>
-              <span>Dostin Hurtado</span>
-            </a>
-          </p>
-          <a href="https://www.youtube.com/watch?v=2jvEaBEJinI" target="_blank">
-            <span class="icon has-text-danger">
-              <i class="bi bi-link-45deg"></i>
-            </span>
-            <span>Link Video</span>
-          </a>
-        </div>
-        <div class="column content">
           <h1 class="title">
-            Curso Completo de Word 2024 en 1 Vídeo - Básico e Intermedio 🎓
-            Dostin Hurtado
+            Curso de Word - Introduccion
           </h1>
           <p class="has-text-grey-light is-size-5 has-text-justified">
-            curso completo de Microsoft Word 2024, enseñando desde lo básico
-            hasta conceptos intermedios. Cubre temas como la interfaz de
-            usuario, guardado de documentos, formato de texto y párrafo,
-            inserción de imágenes y tablas, uso de encabezados y pies de página,
-            y cómo utilizar plantillas y combinar correspondencia. También da
-            recomendaciones para obtener una licencia de Office y optimizar el
-            rendimiento en computadoras. Este curso brinda los conocimientos
-            esenciales para usar Word de manera eficiente en tareas cotidianas y
-            profesionales.
+            Este video aborda una introducción a Word bastante completa, explicando las funcionalidades de la barra de herramientas, entre otras funcionalidades que nos trae Word 
+          </p>
+        </div>
+        <div class="column">
+          <figure class="image video-container">
+            <iframe
+              class="has-ratio responsive-iframe"
+              width="640"
+              height="360"
+              src="https://drive.google.com/file/d/1WBgOCSiQF6JwMGjlR7NNjyQxj_NHNQOV/preview"
+              frameborder="0"
+              oncontextmenu="return false;"
+              allowfullscreen
+              style="min-width: 400px; max-width: 640"
+            ></iframe>
+          </figure>
+          <p class="has-text-grey-light is-size-5 has-text-right">
+            Video de nuestra autoria
           </p>
         </div>
       </div>
 
       <br />
+
       
+      </article>
     </section>`,
   "/pages/word#documentos": `<section class="section">
       <article class="panel is-info">
